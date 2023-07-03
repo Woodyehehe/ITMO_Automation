@@ -1,6 +1,3 @@
-import day as day
-
-
 def max_number(a, b):
     if a > b:
         print(a)
