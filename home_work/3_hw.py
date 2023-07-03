@@ -44,7 +44,7 @@ def list(a, b, c, d, e):
 
 list(a = 1, b = 2, c = 3, d = 5, e = -10)
 
-def day(year, month):
+def day(year, month):  #неправильное решение
     if year >= 1 and month >= 1:
         print(day == (year*12*29) + (month*29))
     else:
