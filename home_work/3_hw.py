@@ -44,10 +44,10 @@ def list(a, b, c, d, e):
 
 list(a = 1, b = 2, c = 3, d = 5, e = -10)
 
-def day(year, month):  #неправильное решение
+def day(year, month):
     if year >= 1 and month >= 1:
-        print(day == (year*12*29) + (month*29))
+        print((year*12*29) + (month*29))
     else:
         print('Введите корректное число')
 
-day(year = 1, month = 2)
+day(year = 1, month = -1)

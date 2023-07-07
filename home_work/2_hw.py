@@ -15,8 +15,8 @@ def task_2(a = [1, 2, 3, 5, 8, 13, 21]):
 print(task_2())
 
 def task_3(a, b):
-    a = 6
-    b = 2
+    # a = 6
+    # b = 2
     return a ** b
 
-print(task_3(a, b))
+print(task_3(3, 2))
